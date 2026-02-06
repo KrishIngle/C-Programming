@@ -13,5 +13,18 @@ int main(){
     printf("Total Marks: %f \n", total);
     printf("Percentage: %f \n", percentage);
 
+    if(percentage>=75){
+        printf("Distinction");
+    }
+    else if(percentage>=60){
+        printf("First Division");
+    }
+    else if(percentage>=50){
+        printf("Second Division");
+    }
+    else{
+        printf("Third Division");
+    }
+
     return 0;
 }
