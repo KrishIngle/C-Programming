@@ -5,13 +5,13 @@ int main(){
     int i;
     printf("Enter marks for 5 subjects: \n");
     for(i=0; i<5; i++){
+        printf("Subject: %d",i+1);
         scanf("%f", &marks[i]);
-
-        if(marks[i] < 0 || marks[i]>100){
-            printf("Invalid marks entered");
-            return 1;
-        }
         total += marks[i];
-
     }
+    percentage = (total/500)*100;
+    printf("Total Marks: %f \n", total);
+    printf("Percentage: %f \n", percentage);
+
+    return 0;
 }
