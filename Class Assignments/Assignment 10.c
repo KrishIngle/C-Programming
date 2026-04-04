@@ -1,3 +1,5 @@
+// Program to create a menu driven program to perform basic arithmetic operations, power and factorial.
+
 #include <stdio.h>
 #include <math.h>
 
@@ -60,6 +62,5 @@ int main(){
         printf("\n Thank you / Invalid choice");
         break;
     }
-
     return 0;
 }
