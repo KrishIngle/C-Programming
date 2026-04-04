@@ -15,5 +15,5 @@ int main(){
     }
 
     printf("Decimal equivalent: %d\n", decimal);
-    return 0;
+    return 0; 
 }
