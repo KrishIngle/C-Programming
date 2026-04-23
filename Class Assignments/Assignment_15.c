@@ -11,6 +11,5 @@ int main() {
         int random_number = rand();
         printf("Pseudo random number %d: %d\n", i + 1, random_number);
     }
-
     return 0;
 }
